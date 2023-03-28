@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Display API 2 Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        .image-fluid {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container bg-secondary-subtle px-5 pb-5 border border-5 border-success m-5">
+        <h1 class="text-center text-success py-5">Found Two Cars</h1>
+        <div class="d-flex justify-content-around">
+            <div class="bg-white p-3 rounded-1 me-3">
+                <div id="car1-img-div">
+                    <p id="car1-img"></p>
+                </div>
+                <h4>Car Name: <span id="car1-name"></span></h4>
+                <h6 class="my-3">Car Detail: <span id="car1-detail"></span></h6>
+
+                <button class="btn btn-primary text-white fs-5">Car Price: <span id="car1-price"></span></button>
+            </div>
+
+            <div class="bg-white p-3 rounded-1 ms-3">
+                <div id="car2-img-div">
+                    <p id="car2-img"></p>
+                </div>
+                <h4>Car Name: <span id="car2-name"></span></h4>
+                <h6 class="my-3">Car Detail: <span id="car2-detail"></span></h6>
+
+                <button class="btn btn-primary text-white fs-5">Car Price: <span id="car2-price"></span></button>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <!-- Script Link:  -->
+    <script src="js/api-2-data.js"></script>
+</body>
+
+</html>
